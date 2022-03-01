@@ -5,8 +5,8 @@ import { GiDelicatePerfume } from 'react-icons/gi';
 import { BiLoaderCircle } from 'react-icons/bi';
 export default function Home(){
     return(
-        <div className="home-outer-wrapper" id="home">
-            <div className="home-wrapper">
+        <div className="home-outer-wrapper" >
+            <div className="home-wrapper" id="home">
                 <div className="welcome-container">
                     <h1><span className="welcome-one">WELCOME TO </span><br></br> <span className="letter-color">B</span>OTTLES <span className="letter-color">H</span>EAVEN</h1>
                     <div className="welcome-text">
