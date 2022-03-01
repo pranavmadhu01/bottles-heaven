@@ -1,10 +1,11 @@
 import "./header.css"
+import logo  from '../images/Bottles Hevane Logo .png'
 export default function Header(){
     return(
         <header className="header">
             <span className="header-logo-wrapper">
-                <img src="#" alt="logo of bottles heaven"></img>
-                <h1>BOTTLES HEAVEN</h1>
+                <img src={ logo } alt="logo of bottles heaven" className="logo"></img>
+                <h1><span className = "letter-color">B</span>OTTLES <span className = "letter-color">H</span>EAVEN</h1>
             </span>
             <nav className="nav-bar">
                 <ul>

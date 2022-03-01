@@ -17,6 +17,13 @@
     grid-auto-flow: column;
     color:#969696
 }
+.logo{
+    width:auto;
+    height:70px;
+}
+.letter-color{
+    color:#33999a;
+}
 .header nav{
     width:100%;
     display:grid;

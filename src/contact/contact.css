@@ -1,5 +1,26 @@
 *{
     font-family:'poppins',sans-serif;
+    margin:0;
+    padding:0;
+}
+.contact-outer-wrapper{
+    display:flex;
+    flex-direction:column;
+    overflow-y:auto;
+    gap:100px;
+    padding-bottom:50px;
+    background-color:#222222;
+    padding:100px 0px 0px 0px;
+    height:100vh;
+}
+.map-wrapper{
+    margin:0px 10px 0px 10px;
+}
+
+.contact-outer-wrapper iframe{
+    border:0.01px solid #494949;
+    border-radius:10px;
+    
 }
 .contact-wrapper{
     width:100%;
@@ -24,20 +45,50 @@
     letter-spacing:20px;
 
 }
-.contact-one>span>a{
-    text-decoration:none;
-    border:0.01px solid #494949;
-    padding:5px;
-    border-radius:10px;
-    color:goldenrod;
-    transition:all 400ms ease-in-out;
-    
+.social-links-container>ul{
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+.social-links-container>ul>li{
+    list-style-type:none;
 
 }
-.contact-one>span>a:hover{
-    letter-spacing:9px;
-    transform-origin: left;
+.social-links-container>ul>li>a{
+    color:white;
+    width:100%;
+    height:100%;
+    font-size:1.6rem
 }
+.social-icons{
+    transition:all 500ms ease 0s;
+    color:whitesmoke;
+    display:grid;
+    place-items:center;
+}
+.social-icons:hover{
+    transform:rotate(360deg) scale(1.1);
+}
+.whatsapp:hover{
+    color:#4cc95b;
+
+}
+.facebook:hover{
+    color:#4167b2;
+}
+.instagram:hover{
+    color:#f56b33;
+}
+.youtube:hover{
+    color:#fe0000;
+}
+.linkedin:hover{
+    color:#0b65c3
+}
+.mail:hover{
+    color:#f44236;
+}
+
 
 .contact-two{
     display:flex;
@@ -52,6 +103,7 @@
     letter-spacing:5px;
 }
 .contact-two>table{
+    font-weight:300;
     padding:20px;
     width:100%;
     height:100%;
