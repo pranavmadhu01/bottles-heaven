@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTaxi } from '@fortawesome/free-solid-svg-icons'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import{faShip } from '@fortawesome/free-solid-svg-icons'
+import { GiReturnArrow } from 'react-icons/gi'
 import './services.css'
 export default function Services(){
     return(
@@ -27,6 +28,12 @@ export default function Services(){
                     <h1>Shipping</h1>
                     <FontAwesomeIcon icon={faShip}  className="icon"/>
                     <p>Shipping is all over INDIA (we are based in Mumbai)Shipping charges are applicable as per order and location.</p>
+
+                </div>
+                <div className="services return">
+                    <h1>Return and Refund</h1>
+                    <GiReturnArrow className="icon"/>
+                    <p>A Return and Refund policy usually consists of:<br></br>If the product is damaged.<br></br>If a product is delivered wrong.</p>
 
                 </div>
 

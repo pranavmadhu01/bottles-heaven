@@ -14,10 +14,11 @@ export default function Header(){
                     <li><a href="#services" class="header-links">Services</a></li>
                     <li><a href="#contact" class="header-links">Contact</a></li>
                 </ul>
-                <ul>
-                    <li><a href="#" class="header-links">Admin</a></li>
-                </ul>
+                
             </nav>
+            <ul>
+                <li><a href="#" class="header-links">Admin</a></li>
+            </ul>
         </header>
     )
 }

@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 export default  function Contact(){
     return(
-        <div id = "contact" className="contact-outer-wrapper">
+        <div className="contact-outer-wrapper">
             <div className="contact-wrapper" id="contact">
-                <div className='contact-one'>
+                <div className='contact-one' >
                     <h1>CONTACT US</h1>
                     <p>We strive to stay in communication with our clients.<br></br>Have a question about our business, or want to see if we match your specific needs?<br></br> Send us a message, or Whatsapp us.<br></br> We're always happy to meet new customers!Message us on WhatsApp</p>
                     <div className="social-links-container">
@@ -67,13 +67,14 @@ export default  function Contact(){
             <div className="map-wrapper">
                 <iframe 
                     title = "Google Maps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.9980191755844!2d72.84599915393282!3d19.218681202421774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6d495a05b7d%3A0xaa6e20f3d580dafb!2sSai%20Krupa%20Garden%20%26%20Banquets%20For%20Weddings%2C%20Birthday%20Party%2C%20Engagement%2C%20Sangeet%20With%20Staying%20Facility!5e0!3m2!1sen!2sin!4v1645975497532!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1883.7315093802044!2d72.84432430808113!3d19.2186423794807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6d4a2ca3a9d%3A0x77d48fd600008196!2sSaibaba%20Nagar%2C%20Borivali%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1646240912166!5m2!1sen!2sin"
                     width="100%" 
                     height="400" 
                     style = {{ border: "0" }} 
                     allowfullscreen="" 
                     loading="lazy"
                 ></iframe>
+                
             </div>
         </div>
         
