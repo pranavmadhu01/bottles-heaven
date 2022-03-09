@@ -29,7 +29,7 @@ export default function Home(){
                         </ul>
                     </div>
                     <div className="shoplink-container">
-                        <p>A few clicks is all it takes.</p>
+                        {/* <p>A few clicks is all it takes.</p> */}
                         <a href="#"><GiShoppingCart  className="shop-icon"/>shop today</a>
                         
                     </div>
@@ -150,7 +150,7 @@ export default function Home(){
                     <div className="about-content content-one">
                         <img src={ bhakthi }></img>
                         <h1>FOUNDER :-<br></br> <span>BHAKTI JOSHI</span></h1>
-                        <p>Bhakti started Bottles Heaven on 16th June 2019. During her college days ENTREPRENEURSHIP as subject she never shown interest but back then in 2019 she just didn't wanted to do 9-5 job so she found bottles heaven.</p>
+                        <p>Bhakti started Bottles Heaven on 16th June 2019. During her college days she didnt had any interest towards ENTREPRENEURSHIP  but back in 2019 she just didn't wanted to do 5-9 jobs so she found Bottles Heaven.</p>
                     </div>
                     <div className="about-content content-two">
                         <h1>WHAT DO WE HAVE ?</h1>
@@ -216,23 +216,23 @@ export default function Home(){
                     <div className="faq">
                         <div>
                             <p className="faq-questions">Your site mentions Compliance and Customer Support. What else do you provide?</p>
-                            <p className='faq-answers'><MdOutlineQuestionAnswer className='answers-icon'/>Some other services we provide are Financial, Marketing, Sales, Human Resources, Program/Project Management, IT, Public Relations management, and many more!</p>
+                            <p className='faq-answers' id='faqanswerone'><MdOutlineQuestionAnswer className='answers-icon'/>Some other services we provide are Financial, Marketing, Sales, Human Resources, Program/Project Management, IT, Public Relations management, and many more!</p>
                         </div>
-                        <IoIosArrowDropdownCircle />
+                        <IoIosArrowDropdownCircle className='faq-dropdown-icon' id='dropdownone' onclick='dropdown(one)'/>
                     </div>
                     <div className="faq">
                         <div>
                             <p className="faq-questions">Do you have packages or do you have to pay for each service individually?</p>
-                            <p className='faq-answers'><MdOutlineQuestionAnswer className='answers-icon'/>Once we determine what your needs are, we can put together a cost-effective package that serves your company best. </p>
+                            <p className='faq-answers' id='faqanswertwo'><MdOutlineQuestionAnswer className='answers-icon'/>Once we determine what your needs are, we can put together a cost-effective package that serves your company best. </p>
                         </div>
-                        <IoIosArrowDropdownCircle />
+                        <IoIosArrowDropdownCircle className='faq-dropdown-icon' id='dropdowntwo'/>
                     </div>
                     <div className="faq">
                         <div>
                             <p className="faq-questions">Do I really need business management?</p>
-                            <p className='faq-answers'><MdOutlineQuestionAnswer className='answers-icon'/>While not all businesses need our assistance, all businesses could benefit from our services. We have professionals to help with the less desirable jobs to ensure you make the most of your business!</p>
+                            <p className='faq-answers' id='faqanswerthree'><MdOutlineQuestionAnswer className='answers-icon'/>While not all businesses need our assistance, all businesses could benefit from our services. We have professionals to help with the less desirable jobs to ensure you make the most of your business!</p>
                         </div>
-                        <IoIosArrowDropdownCircle />
+                        <IoIosArrowDropdownCircle className='faq-dropdown-icon' id='dropdownthree'/>
                     </div>
                 </div>
             </div>
@@ -264,3 +264,21 @@ export default function Home(){
         </div>
     )
 }
+let dropdownone = document.getElementById("dropdownone");
+let dropdowntwo = document.getElementById("dropdowntwo");
+let dropdownthree = document.getElementById("dropdownthree");
+let faqanswerone = document.getElementById("faqanswerone");
+let faqanswertwo = document.getElementById("faqanswertwo");
+let faqanswerthree = document.getElementById("faqanswerthree");
+dropdownone.addEventListener("click" , ()=>{
+    dropdownone.classList.toggle('faq-dropdown-icon-active');
+    faqanswerone.classList.toggle('faq-answers-active');
+})
+dropdowntwo.addEventListener("click" , ()=>{
+    dropdowntwo.classList.toggle('faq-dropdown-icon-active');
+    faqanswertwo.classList.toggle('faq-answers-active');
+})
+ dropdownthree.addEventListener("click" , ()=>{
+    dropdownthree.classList.toggle('faq-dropdown-icon-active');
+    faqanswerthree.classList.toggle('faq-answers-active');
+})

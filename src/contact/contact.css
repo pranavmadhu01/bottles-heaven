@@ -1,5 +1,4 @@
 *{
-    font-family:'poppins',sans-serif;
     margin:0;
     padding:0;
 }
@@ -44,12 +43,10 @@
     font-weight:100;
     word-spacing:20px;
     letter-spacing:20px;
-    font-family: 'Lobster', cursive;
 
 
 }
 .contact-one>p{
-    font-family: 'Lobster', cursive;
     font-size:1.3em;
     letter-spacing:2px;
     word-spacing:5px;
@@ -112,7 +109,6 @@
     color:white;
     word-spacing:5px;
     letter-spacing:5px;
-    font-family: 'Lobster', cursive;
 }
 .contact-two>table{
     font-weight:300;
@@ -135,12 +131,11 @@ td{
     padding:3px;
     text-align: left;
     display:flex;
-    justify-content:left;
-    font-family: 'Lobster', cursive;
+    justify-content:left; 
+    
 }
 span{
     width:100%;
     text-align: center;
     letter-spacing: 10px;
-    font-family: 'Lobster', cursive;
 }

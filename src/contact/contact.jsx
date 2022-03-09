@@ -71,7 +71,7 @@ export default  function Contact(){
                     width="100%" 
                     height="400" 
                     style = {{ border: "0" }} 
-                    allowfullscreen="" 
+                    allowFullScreen="" 
                     loading="lazy"
                 ></iframe>
                 
