@@ -41,15 +41,15 @@
 .contact-one>h1{
     color:white;
     font-weight:100;
-    word-spacing:20px;
-    letter-spacing:20px;
+    word-spacing:10px;
+    letter-spacing:10px;
 
 
 }
 .contact-one>p{
-    font-size:1.3em;
+    font-size:1.2em;
     letter-spacing:2px;
-    word-spacing:5px;
+    word-spacing:3px;
 }
 .social-links-container>ul{
     display:flex;

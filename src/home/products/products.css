@@ -1,0 +1,133 @@
+.description-wrapper{
+    width:100%;
+    height: max-content !important;
+    display:flex;
+    flex-direction:column;
+}
+.products-wrapper{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:20px;
+    column-gap: 20px;
+}
+.product-headline-wrapper{
+    align-items:flex-start;
+    padding:20px;
+    font-size:2.8em;
+}
+.product-headline-wrapper>h1{
+    color:rgba(255,255,255);
+    /* color:#969696;  */
+}
+.products{
+    position:relative;
+    height:300px;
+    box-shadow:0px 0px 1px 0.01px  black;
+    border-radius:10px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    transition:all 400ms ease 0s;
+    overflow:hidden;
+
+}
+.products:hover{
+    box-shadow:0px 0px 5px 2px  black;
+    transform:scale(1.05);
+    z-index:1;
+    cursor:pointer;
+
+}
+.product-mask{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    align-items:center;
+    padding:20px;
+    font-size:1.7em;
+    letter-spacing:8px;
+    color:whitesmoke;
+    text-decoration: none;
+    
+}
+.product-mask>h3{
+    position:relative;
+    font-weight:500;
+
+}
+.product-mask>h3::before,.product-mask>h3::after{
+    position:absolute;
+    content:"";
+    width:0%;
+    height:3px;
+    background-color: #222222;
+    transition:width 400ms ease-in-out;
+
+
+}
+.product-mask>h3::before{
+    top:-5%;
+    left:0;
+    transform-origin:left;
+}
+.product-mask>h3::after{
+    bottom:-5%;
+    right:0;
+    transform-origin:right;
+    background-color:goldenrod;
+
+}
+.products:hover .product-mask>h3::before,.products:hover .product-mask>h3::after{
+    width:100%;
+}
+.soap{
+    background-image:url(../../images/soaps.jpg);
+    background-position:top right;
+}
+.perfumes{
+    background-image:url(../../images/perfumes.jpg);
+}
+.skincare{
+    background-image:url(../../images/skincare.jpg);
+    background-position: left;
+}
+.load-more{
+    position:absolute;
+    top:0%;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    align-items:center;
+    padding:20px;
+    font-size:1em;
+    letter-spacing:8px;
+    color:whitesmoke;
+    text-decoration: none;
+    display:flex;
+    justify-content:space-around;
+    border-radius:10px;
+    clip-path: circle(8% at 17% 50%);
+    transition:clip-path 400ms ease-in-out;
+    
+
+
+}
+.products:hover .load-more{
+    clip-path:circle(100%);
+}
+.loading-icon{
+    transform:rotate(0deg) scale(3);
+    animation-name:animation1;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-direction: forwards;
+    animation-play-state: running;
+}
+@keyframes animation1{
+    to{transform:rotate(720deg)scale(3)}
+}

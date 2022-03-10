@@ -1,7 +1,22 @@
 import './photogallery.css';
+import {useEffect} from 'react';
 export default function Photogallery(){
+    useEffect(() =>{
+        var scrollselect = document.getElementById("gallery");
+        let wrapper = document.getElementById("wrapper");
+        wrapper.addEventListener('scroll',function(){
+            let contentPosition = scrollselect.getBoundingClientRect().top;
+            let screenPosition = window.innerHeight;
+            if(contentPosition<screenPosition){
+                scrollselect.classList.add('scroll-active');
+            }
+            else{
+                scrollselect.classList.remove('scroll-active');
+            }
+        });
+},[])
     return(
-        <div className="photo-gallery-container">
+        <div className="photo-gallery-container scroll-select" id="gallery">
             <div className="headline-wrapper product-headline-wrapper">
                 <h1>GALLERY</h1>
             </div>

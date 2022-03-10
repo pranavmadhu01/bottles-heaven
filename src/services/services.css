@@ -23,8 +23,8 @@
     color:white;
 }
 .headline-wrapper>p{
-    word-spacing:5px;
-    letter-spacing:3px;
+    word-spacing:3px;
+    letter-spacing:2px;
 }
 .services-inner-wrapper{
     display:grid;
@@ -51,14 +51,14 @@
     grid-column:2/3;
 }
 .services>h1{
-    letter-spacing:10px;
+    letter-spacing:5px;
     font-weight:100;
     color:white;
 }
 .services>p{
-    font-size:1.3em;
+    font-size:1.2em;
     word-spacing:5px;
-    letter-spacing:3px;
+    letter-spacing:2px;
 }
 .services>p>a{
     text-decoration:none;
