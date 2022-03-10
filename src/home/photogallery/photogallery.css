@@ -49,17 +49,17 @@
 } */
 
 .photo-one{
-    background-image: url("./IMG_20210804_172615.jpg");
+    background-image: url("../../images/IMG_20210804_172615.jpg");
 }
 .photo-two{
-    background-image:url("./IMG_20210804_173657.jpg");
+    background-image:url("../../images/IMG_20210804_173657.jpg");
 }
 .photo-three{
-    background-image:url("./IMG_20210804_173842.jpg");
+    background-image:url("../../images/IMG_20210804_173842.jpg");
 }
 .photo-four{
-    background-image:url("./IMG_20211026_212340.jpg");
+    background-image:url("../../images/IMG_20211026_212340.jpg");
 }
 .photo-five{
-    background-image:url("./IMG_20211027_023436.jpg");
+    background-image:url("../../images/IMG_20211027_023436.jpg");
 }

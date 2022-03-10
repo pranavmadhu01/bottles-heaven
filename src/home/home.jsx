@@ -1,8 +1,8 @@
 import'./home.css';
+import { useEffect } from 'react';
 import bhakthi from '../images/fx-gs.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { GiDelicatePerfume } from 'react-icons/gi';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { BiLoaderCircle } from 'react-icons/bi';
 import { GiShoppingCart } from 'react-icons/gi';
@@ -10,6 +10,26 @@ import { MdOutlineQuestionAnswer } from 'react-icons/md'
 import Photogallery from './photogallery/photogallery'
 import logo  from '../images/Bottles Hevane Logo .png'
 export default function Home(){
+    useEffect(() =>{
+        let dropdownone = document.getElementById("dropdownone");
+    let dropdowntwo = document.getElementById("dropdowntwo");
+    let dropdownthree = document.getElementById("dropdownthree");
+    let faqanswerone = document.getElementById("faqanswerone");
+    let faqanswertwo = document.getElementById("faqanswertwo");
+    let faqanswerthree = document.getElementById("faqanswerthree");
+    dropdownone.addEventListener("click" , ()=>{
+        dropdownone.classList.toggle('faq-dropdown-icon-active');
+        faqanswerone.classList.toggle('faq-answers-active');
+    })
+    dropdowntwo.addEventListener("click" , ()=>{
+        dropdowntwo.classList.toggle('faq-dropdown-icon-active');
+        faqanswertwo.classList.toggle('faq-answers-active');
+    })
+    dropdownthree.addEventListener("click" , ()=>{
+        dropdownthree.classList.toggle('faq-dropdown-icon-active');
+        faqanswerthree.classList.toggle('faq-answers-active');
+    })
+    },[])
     return(
         <div className="home-outer-wrapper" >
             <div className="home-wrapper" id="home">
@@ -218,7 +238,7 @@ export default function Home(){
                             <p className="faq-questions">Your site mentions Compliance and Customer Support. What else do you provide?</p>
                             <p className='faq-answers' id='faqanswerone'><MdOutlineQuestionAnswer className='answers-icon'/>Some other services we provide are Financial, Marketing, Sales, Human Resources, Program/Project Management, IT, Public Relations management, and many more!</p>
                         </div>
-                        <IoIosArrowDropdownCircle className='faq-dropdown-icon' id='dropdownone' onclick='dropdown(one)'/>
+                        <IoIosArrowDropdownCircle className='faq-dropdown-icon' id='dropdownone'/>
                     </div>
                     <div className="faq">
                         <div>
@@ -264,21 +284,4 @@ export default function Home(){
         </div>
     )
 }
-let dropdownone = document.getElementById("dropdownone");
-let dropdowntwo = document.getElementById("dropdowntwo");
-let dropdownthree = document.getElementById("dropdownthree");
-let faqanswerone = document.getElementById("faqanswerone");
-let faqanswertwo = document.getElementById("faqanswertwo");
-let faqanswerthree = document.getElementById("faqanswerthree");
-dropdownone.addEventListener("click" , ()=>{
-    dropdownone.classList.toggle('faq-dropdown-icon-active');
-    faqanswerone.classList.toggle('faq-answers-active');
-})
-dropdowntwo.addEventListener("click" , ()=>{
-    dropdowntwo.classList.toggle('faq-dropdown-icon-active');
-    faqanswertwo.classList.toggle('faq-answers-active');
-})
- dropdownthree.addEventListener("click" , ()=>{
-    dropdownthree.classList.toggle('faq-dropdown-icon-active');
-    faqanswerthree.classList.toggle('faq-answers-active');
-})
+
