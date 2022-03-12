@@ -9,6 +9,7 @@
     grid-template-columns: repeat(4,1fr);
     padding:20px;
     column-gap: 20px;
+    row-gap:20px;
 }
 .product-headline-wrapper{
     align-items:flex-start;

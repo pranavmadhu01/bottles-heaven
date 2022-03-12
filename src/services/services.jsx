@@ -3,6 +3,7 @@ import { faTaxi } from '@fortawesome/free-solid-svg-icons'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import{faShip } from '@fortawesome/free-solid-svg-icons'
 import { GiReturnArrow } from 'react-icons/gi'
+import{ RiRefund2Fill } from 'react-icons/ri'
 import './services.css'
 export default function Services(){
     return(
@@ -32,7 +33,7 @@ export default function Services(){
                 </div>
                 <div className="services return">
                     <h1>Return and Refund</h1>
-                    <GiReturnArrow className="icon"/>
+                    <RiRefund2Fill className="icon"/>
                     <p>A Return and Refund policy usually consists of:<br></br>If the product is damaged.<br></br>If a product is delivered wrong.</p>
 
                 </div>

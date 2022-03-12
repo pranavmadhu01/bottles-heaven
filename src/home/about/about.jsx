@@ -35,8 +35,8 @@ export default function About(){
                         <h1>WHAT DO WE HAVE ?</h1>
                         <table>
                             <tr>
-                                <th><span>S</span>oaps<span>(</span>30+ varities<span>)</span></th>
-                                <th><span>P</span>erfumes<span>(</span>30+ varities<span>)</span></th>
+                                <th><span>S</span>oaps (30+ varities)</th>
+                                <th><span>P</span>erfumes (30+ varities)</th>
                                 <th><span>F</span>acial Bombs</th>
                                 <th><span>F</span>ace wash</th>
                                 <th><span>B</span>ath salts</th>

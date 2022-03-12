@@ -37,10 +37,56 @@ export default function Products(){
                     </div>
                     <div className='products skincare'>
                         <a  href="#" className="product-mask">
-                            <h3>SKIN CARE</h3>
+                            <h3>Facial Bombs</h3>
                         </a>
 
                     </div>
+                    <div className='products skincare'>
+                        <a  href="#" className="product-mask">
+                            <h3>Face wash</h3>
+                        </a>
+
+                    </div>
+                    <div className='products skincare'>
+                        <a  href="#" className="product-mask">
+                            <h3>Bath salts</h3>
+                        </a>
+
+                    </div>
+                    <div className='products skincare'>
+                        <a  href="#" className="product-mask">
+                            <h3>Face serum</h3>
+                        </a>
+
+                    </div>
+                    <div className='products skincare'>
+                        <a  href="#" className="product-mask">
+                            <h3>Hair mask</h3>
+                        </a>
+
+                    </div>
+                    <div className='products skincare'>
+                        <a  href="#" className="product-mask">
+                            <h3>Lip care</h3>
+                        </a>
+
+                    </div>
+                    <div className='products skincare'>
+                        <a  href="#" className="product-mask">
+                            <h3>Body Butter</h3>
+                        </a>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
                     <div className='products'>
                         <a  href="#" className="load-more">
                             <BiLoaderCircle  className="loading-icon" />
