@@ -44,8 +44,6 @@ export default function Faq(){
         <div className="faq-wrapper scroll-select" id="faq">
                 <div className="headline-wrapper product-headline-wrapper" >
                     <h1>FAQ'S</h1>
-                    <br></br>
-                    {/* <p>Please contact us if you cannot find an answer to your question.</p> */}
                 </div>
                 <div className="questions-wrapper">
                     <div className="faq">

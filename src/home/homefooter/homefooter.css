@@ -45,3 +45,33 @@
     justify-content:center;
     gap:30px;
 }
+@media all and (max-width:1000px){
+    .services-target>a{
+        padding:10px;
+    }
+
+}
+@media all and (max-width:600px){
+    .home-footer{
+        align-items:unset;
+        flex-direction:column;
+    }
+    .footer-logo-link-wrapper{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    }
+    .services-target{
+        width:fit-content;
+        height:fit-content;
+        justify-content:space-evenly;
+    }
+    .services-target>a{
+        padding:5px;
+    }
+    .social-links-container>p{
+        text-align:unset;
+        margin-bottom:20px;
+        letter-spacing:0.2em;
+    }
+}

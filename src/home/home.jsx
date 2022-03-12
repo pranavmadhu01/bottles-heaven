@@ -12,10 +12,10 @@ export default function Home(){
         <div className="home-outer-wrapper" id="wrapper">
             <a href="https://wa.me/c/919321763795" target="_blank"className="fixed-chat-icon"><BsFillChatLeftFill  /></a>
             <Welcome  />
-            <About />
             <Products />
-            <Faq />
+            <About />
             <Photogallery />
+            <Faq />
             <Homefooter />
         
         
