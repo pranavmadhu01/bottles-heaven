@@ -1,0 +1,21 @@
+.shop-section-wrapper{
+    width:100%;
+    height:max-content;
+    border-radius:10px;
+    padding:80px 10px 10px 10px;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    font-size:1.4em;
+    gap:5px;
+    
+}
+.shop-section-cards-wrapper{
+    width:90%;
+    margin:auto;
+    height:max-content;
+    padding:5px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px
+}

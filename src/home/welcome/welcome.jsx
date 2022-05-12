@@ -22,7 +22,7 @@ export default function Welcome(){
                     </div>
                     <div className="shoplink-container">
                         {/* <p>A few clicks is all it takes.</p> */}
-                        <a href="#"><GiShoppingCart  className="shop-icon"/>shop today</a>
+                        <a href="#shop"><GiShoppingCart  className="shop-icon"/>shop today</a>
                         
                     </div>
                     

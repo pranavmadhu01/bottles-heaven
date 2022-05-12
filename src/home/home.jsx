@@ -6,7 +6,6 @@ import Faq from './faq/faq'
 import Homefooter from './homefooter/homefooter'
 import Photogallery from './photogallery/photogallery'
 import { BsWhatsapp } from 'react-icons/bs'
-import { useEffect } from 'react'
 export default function Home(){
     return(
         <div className="home-outer-wrapper" id="wrapper">

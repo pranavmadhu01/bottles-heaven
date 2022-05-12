@@ -27,7 +27,7 @@ export default function Header(){
             <nav className="nav-bar">
                 <ul>
                     <li><a href="#home" class="header-links">Home</a></li>
-                    <li><a href="#" class="header-links">Shop</a></li>
+                    <li><a href="#shop" class="header-links">Shop</a></li>
                     <li><a href="#services" class="header-links">Services</a></li>
                     <li><a href="#contact" class="header-links">Contact</a></li>
                 </ul>
@@ -41,7 +41,7 @@ export default function Header(){
             <AiOutlineClose  className="close-menu-icon" id="hamberger-close-icon"/>
                 <ul>
                     <li><a href="#home" class="hamburger-links">Home</a></li>
-                    <li><a href="#" class="hamburger-links">Shop</a></li>
+                    <li><a href="#shop" class="hamburger-links">Shop</a></li>
                     <li><a href="#services" class="hamburger-links">Services</a></li>
                     <li><a href="#contact" class="hamburger-links">Contact</a></li>
                     <li><a href="#" class="hamburger-links">Admin</a></li>

@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTaxi } from '@fortawesome/free-solid-svg-icons'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import{faShip } from '@fortawesome/free-solid-svg-icons'
-import { GiReturnArrow } from 'react-icons/gi'
 import{ RiRefund2Fill } from 'react-icons/ri'
 import './services.css'
 export default function Services(){

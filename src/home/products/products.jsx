@@ -20,73 +20,59 @@ export default function Products(){
         <div className="description-wrapper scroll-select" id="products">
                 <div className="headline-wrapper product-headline-wrapper">
                     <h1>PRODUCTS</h1>
-                    <br></br>
                     <p></p>
                 </div>
                 <div className="products-wrapper">
-                    <div className='products soap'>
-                        <a  href="#" className="product-mask">
-                            <h3>SOAPS</h3>
-                        </a>
-                    </div>
-                    <div className='products perfumes'>
-                        <a  href="#" className="product-mask">
-                            <h3>PERFUMES</h3>
-                        </a>
-
-                    </div>
-                    <div className='products skincare'>
-                        <a  href="#" className="product-mask">
-                            <h3>Facial Bombs</h3>
-                        </a>
-
-                    </div>
-                    <div className='products skincare'>
-                        <a  href="#" className="product-mask">
-                            <h3>Face wash</h3>
-                        </a>
-
-                    </div>
-                    <div className='products skincare'>
-                        <a  href="#" className="product-mask">
-                            <h3>Bath salts</h3>
-                        </a>
-
-                    </div>
-                    <div className='products skincare'>
-                        <a  href="#" className="product-mask">
-                            <h3>Face serum</h3>
-                        </a>
-
-                    </div>
-                    <div className='products skincare'>
-                        <a  href="#" className="product-mask">
-                            <h3>Hair mask</h3>
-                        </a>
-
-                    </div>
-                    <div className='products skincare'>
-                        <a  href="#" className="product-mask">
-                            <h3>Lip care</h3>
-                        </a>
-
-                    </div>
-                    <div className='products skincare'>
-                        <a  href="#" className="product-mask">
-                            <h3>Body Butter</h3>
-                        </a>
-
-                    </div>
-
-
-
-
-
-
-
-
-
-
+                    <Productcards 
+                        classone = "soap"
+                        link ="#soaps"
+                        name = "Soaps"
+                    />
+                    <Productcards 
+                        classone = "perfumes"
+                        link ="#perfumes"
+                        name = "Perfumes"
+                    />
+                    <Productcards 
+                        classone = "skincare"
+                        link = "#attar"
+                        name = "Attar"
+                    />
+                    <Productcards 
+                        classone = "skincare"
+                        link = "#facialbombs"
+                        name = "Facial Bombs"
+                    />
+                    <Productcards 
+                        classone= "skincare"
+                        link ="#facewash"
+                        name = "Face Wash"
+                    />
+                    <Productcards 
+                        classone = "skincare"
+                        link = "#bathsalts"
+                        name = "Bath Salts"
+                    />
+                    <Productcards 
+                        classone = "skincare"
+                        link = "#faceserum"
+                        name = "Face Serum"
+                    />
+                    <Productcards 
+                        classone = "skincare"
+                        link = "#hairmask"
+                        name = "Hair Mask"
+                    />
+                    <Productcards 
+                        classone = "skincare"
+                        link = "#lipcare"
+                        name = "Lip Care"
+                    />
+                    <Productcards 
+                        classone = "skincare"
+                        link = "#bodybutter"
+                        name = "Body Butter"
+                    />
                     <div className='products'>
                         <a  href="#" className="load-more">
                             <BiLoaderCircle  className="loading-icon" />
@@ -98,4 +84,15 @@ export default function Products(){
                 </div>
             </div>
     )
+}
+function Productcards({classone, link, name}){
+return(
+    <div className={`products ${ classone }`}>
+        <a  href={link} className="product-mask">
+            <h3>{name}</h3>
+        </a>
+    </div>
+
+)
+
 }

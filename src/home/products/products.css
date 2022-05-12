@@ -130,7 +130,7 @@
     animation-play-state: running;
 }
 @keyframes animation1{
-    to{transform:rotate(720deg)scale(3)}
+    to{transform:rotate(720deg) scale(3)}
 }
 @media all and (max-width:1200px){
     .products{
