@@ -34,42 +34,42 @@ export default function Products(){
                         name = "Perfumes"
                     />
                     <Productcards 
-                        classone = "skincare"
+                        classone = "attar"
                         link = "#attar"
                         name = "Attar"
                     />
                     <Productcards 
-                        classone = "skincare"
+                        classone = "facialbombs"
                         link = "#facialbombs"
                         name = "Facial Bombs"
                     />
                     <Productcards 
-                        classone= "skincare"
+                        classone= "facewash"
                         link ="#facewash"
                         name = "Face Wash"
                     />
                     <Productcards 
-                        classone = "skincare"
+                        classone = "bathsalt"
                         link = "#bathsalts"
                         name = "Bath Salts"
                     />
                     <Productcards 
-                        classone = "skincare"
+                        classone = "faceserum"
                         link = "#faceserum"
                         name = "Face Serum"
                     />
                     <Productcards 
-                        classone = "skincare"
+                        classone = "hairmask"
                         link = "#hairmask"
                         name = "Hair Mask"
                     />
                     <Productcards 
-                        classone = "skincare"
+                        classone = "lipcare"
                         link = "#lipcare"
                         name = "Lip Care"
                     />
                     <Productcards 
-                        classone = "skincare"
+                        classone = "bodybutter"
                         link = "#bodybutter"
                         name = "Body Butter"
                     />

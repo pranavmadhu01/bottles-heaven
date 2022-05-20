@@ -33,9 +33,9 @@ export default function Header(){
                 </ul>
                 
             </nav>
-            <ul>
+            {/* <ul>
                 <li><a href="#" class="header-links">Admin</a></li>
-            </ul>
+            </ul> */}
             <AiOutlineMenu  className="hamburger-menu-icon" id="hamberger-icon"/>
             <nav className="hamburger-nav-bar" id="hamberger-menu">
             <AiOutlineClose  className="close-menu-icon" id="hamberger-close-icon"/>

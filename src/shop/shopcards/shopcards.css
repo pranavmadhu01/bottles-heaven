@@ -6,7 +6,7 @@
   padding: 10px;
   display: flex;
   border-radius: 10px;
-  transition: all 200ms ease 0s;
+  transition: all 200ms ease 0s;  
   overflow:hidden;
   
 }
@@ -23,11 +23,34 @@
 }
 .card-description-wrapper{
   position:absolute;
+  display:none;
+  background-color: black;
+  transform-origin: right;
+  transition :all 400ms ease 0s;
+  overflow: hidden;
+  padding:10px;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap:30px;
+
+}
+.card-description-wrapper>p{
+  width:90%;
+  word-wrap: break-word;
+  line-height: 30px;
+}
+.card-description-wrapper-active
+{
   top:0;
   left:0;
   bottom:0;
-  right: 0;;
-  background-color: red;
+  right:0;
+  display: flex;
+  transition:all 400ms ease 0s;
+  backdrop-filter: blur(10px);
+  overflow-y: scroll;
 }
 .card-image {
   width: 50%;
@@ -42,6 +65,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 20px;
 }
 .card-content-wrapper>h4{
@@ -59,8 +83,10 @@
   color: white;
   border-radius: 10px;
   font-size: 1.1em;
+  font-family:"poppins",sans-serif;
   transition: all 250ms ease-in-out;
 }
 .buy-button:hover {
   transform: scale(1.05);
+  z-index:9999;
 }

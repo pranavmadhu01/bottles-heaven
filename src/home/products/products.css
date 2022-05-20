@@ -91,9 +91,29 @@
 .perfumes{
     background-image:url(../../images/perfumes.jpg);
 }
-.skincare{
-    background-image:url(../../images/skincare.jpg);
-    background-position: left;
+.attar{
+    background-image: url(../../images/attar.jpg);
+}
+.facialbombs{
+    background-image: url(../../images/facial\ bombs.png);
+}
+.facewash{
+    background-image: url(../../images/facewash.png);
+}
+.bathsalt{
+    background-image:url(../../images/bathsalt.png)
+}
+.faceserum{
+    background-image: url(../../images/faceserum.png);
+}
+.hairmask{
+    background-image: url(../../images/hairmask.png);
+}
+.lipcare{
+    background-image: url(../../images/lipcare.png);
+}
+.bodybutter{
+    background-image: url(../../images/skincare.jpg);
 }
 .load-more{
     position:absolute;

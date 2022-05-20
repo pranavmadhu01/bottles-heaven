@@ -1,6 +1,6 @@
 import './about.css'
 import{ useEffect } from 'react';
-import bhakthi from '../../images/fx-gs.jpg';
+import bhakthi from '../../images/bhakthi.jpg';
 export default function About(){
     useEffect(() =>{
         var scrollselect = document.getElementById("about");
