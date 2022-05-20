@@ -2,7 +2,7 @@
     width:100%;
     height:max-content;
     border-radius:10px;
-    padding:80px 10px 10px 10px;
+    padding:60px 10px 10px 10px;
     display:flex;
     flex-direction:column;
     color:white;
@@ -18,4 +18,36 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap:10px
+}
+@media all and (max-width:1300px)
+{
+    .shop-section-cards-wrapper{
+        width:100%;
+    }
+}
+@media all and (max-width:1200px)
+{
+    .shop-section-cards-wrapper{
+        width:80%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media all and (max-width:1000px)
+{
+    .shop-section-cards-wrapper{
+        width:100%;
+    }
+}
+@media all and (max-width:800px)
+{
+    .shop-section-cards-wrapper{
+        width:80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media all and (max-width:500px)
+{
+    .shop-section-cards-wrapper{
+        width:100%;
+    }
 }

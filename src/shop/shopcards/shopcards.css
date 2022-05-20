@@ -49,7 +49,6 @@
   right:0;
   display: flex;
   transition:all 400ms ease 0s;
-  backdrop-filter: blur(10px);
   overflow-y: scroll;
 }
 .card-image {
@@ -89,4 +88,14 @@
 .buy-button:hover {
   transform: scale(1.05);
   z-index:9999;
+}
+@media all and (max-width:400px)
+{
+  .shop-card-wrapper{
+    height:200px;
+    font-size: 0.9em;
+  }
+  .card-content-wrapper>h4{
+    font-size: 0.9em;
+  }
 }

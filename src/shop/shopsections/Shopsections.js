@@ -1,7 +1,6 @@
 import React from "react";
 import "./shopsections.css";
 import Shopcards from "../shopcards/Shopcards";
-import Shop from "../Shop";
 
 function Shopsections({ name, idsection, data }) {
   return (

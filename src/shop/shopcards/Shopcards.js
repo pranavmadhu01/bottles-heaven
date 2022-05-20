@@ -27,7 +27,7 @@ function Shopcards({ image, cardname, price, description }) {
             Buy
           </a>
         </div>
-        <img src={ image } className="card-image" loading="lazy"></img>
+        <img src={ image } className="card-image" loading="lazy" alt=""></img>
         <div className="card-content-wrapper">
           <h4>{cardname}</h4>
           <span>
