@@ -17,6 +17,7 @@ function Shopcards({ image, cardname, price, description }) {
     return (
       <div className="shop-card-wrapper" onClick = { descriptionactive }>
         <div className={ "card-description-wrapper" + (clicked ? "  card-description-wrapper-active":"")} >
+        <img src={ image } className="card-image" loading="lazy" alt=""></img>
           <p className="description">{ description }</p>
           <a
             href="https://wa.me/c/919321763795"
