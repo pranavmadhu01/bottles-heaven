@@ -1,14 +1,14 @@
 export const soaps = [
   {
     name: "Charcoal",
-    price: "20",
+    price: "80",
     description:
       "Charcoals help in removing the dirt, from the pores and give your skin a thorough cleansing. Also control the oil secretion in your skin, making it perfect for skin prone to blackheads .",
     image: require(`../images/charcoalsoap.jpg`),
   },
   {
     name: "Dove",
-    price: "20",
+    price: "80",
     description: `Effective Skin Cleanser: ...
         Provides Hydration: ...
         Dove Soap Is A Natural Moisturizer: ...
@@ -18,44 +18,44 @@ export const soaps = [
   },
   {
     name: "Lemon & Mint",
-    price: "20",
+    price: "80",
     description: `Lemon juice has mild bleaching properties that fade acne scars, contains vitamin C which boosts the healing process of your skin.
       Mint leaves contain salicylic acid, which treats and prevents acne.`,
     image: require(`../images/lemonmintsoap.jpg`),
   },
   {
     name: "Aloe Vera",
-    price: "20",
+    price: "80",
     description: `Aloe is ideal for sunburned or irritated skin. "The aloe vera gel features cooling properties that can be soothing for skin that has been exposed to the sun for a long period of time, "In general, aloe can be used to reduce skin irritation and inflammations such as acne and eczema."`,
     image: require(`../images/aloevera.jpg`),
   },
   {
     name: "Coffee",
-    price: "20",
+    price: "80",
     description: `Coffee has antimicrobial properties that may protect the skin against germs. Coffee grounds make a great exfoliant. The grounds do not dissolve in water, which makes them good at scrubbing away dead skin cells. It also lightens the tan skin.`,
     image: require(`../images/coffeesoap.jpg`),
   },
   {
     name: "Lavender",
-    price: "20",
+    price: "80",
     description: `Lavender oil not only boosts potent anti-inflammatory properties, but is also ultra soothing for skin with a therapeutic scent. ... Lavender oil not only moisturizes skin, but is also antibacterial and can kill bacteria that penetrate your pores. That makes lavender oil perfect for preventing and also healing acne.`,
     image: require(`../images/lavendersoap.jpg`),
   },
   {
     name: "Chandan",
-    price: "20",
+    price: "80",
     description: "",
     image: require(`../images/chandansoap.jpg`),
   },
   {
     name: "Multani Miti",
-    price: "20",
+    price: "80",
     description: `Used as a scrub, multani mitti can slough away dead skin cells and remove blackheads and whiteheads, giving skin a natural and healthy glow. Boosts circulation and improves skin health and tone.`,
     image: require(`../images/multanimiti.jpg`),
   },
   {
     name: "Neem",
-    price: "20",
+    price: "80",
     description: `Natural and Herbal handmade Protect sensitive skin from Infection Natural skin toner which removes pigmentation, blackheads, whiteheads, acne and scars.
     Natural moisturizer
     Skin fresh and odor free Removes impurities from skin
@@ -64,87 +64,87 @@ export const soaps = [
   },
   {
     name: "Goat Milk Soap",
-    price: "20",
+    price: "80",
     description: "",
     image: require(`../images/goatmilksoap.jpg`),
   },
   {
     name: "Kesari",
-    price: "20",
+    price: "80",
     description: "",
     image: require(`../images/soaps.jpg`),
   },
   {
     name: "Papaya",
-    price: "20",
+    price: "80",
     description: `Papaya soap is rich in vitamin C, an antioxidant that can reduce irregular pigmentation and stimulate collagen production. The soap also contains vitamin A, another important nutrient for the skin. It promotes the production of new skincells, and may help reduce dark spots, blemishes, and scars.`,
     image: require(`../images/pappayasoap.jpg`),
   },
   {
     name: "Red Wine",
-    price: "20",
+    price: "80",
     description: `This soap gives good lather that will clean your whole body. Resveratrol, found in grape skin, provides you with anti-inflammatory and anti-fungal properties. Polyphenols in red wine can help reduce the appearance of fine lines and wrinkles. The soap's scent is all natural, provided by the fruity scent of the wine.`,
     image: require(`../images/redwinesoap.jpg`),
   },
   {
     name: "Ubtan",
-    price: "20",
+    price: "80",
     description: "",
     image: require(`../images/ubtansoap.jpg`),
   },
   {
     name: "Honey Milk Soap",
-    price: "20",
+    price: "80",
     description: `Honey and Milk are Good for Skin. Honey has a lot to offer. ...Fades Scar. The anti inflammatory and antibacterial properties of honey help in decreasing the appearance of scars on the skin. ...Cleanses Skin. ...Fights Acne. ...Exfoliates Skin. ...Improves Complexion. ...Purifies and Moisturize Skin. ...Prevents Irritation.`,
     image: require(`../images/honeymilksoap.jpg`),
   },
   {
     name: "Potato Soap",
-    price: "20",
+    price: "80",
     description: `Potato is a rich source of Vitamin B6 & Vitamin C which helps in the growth of skin cells and calms down the skin. It can also help in reducing the dark spots and tanning as it is known to be a cleansing agent`,
     image: require(`../images/potatosoap.jpg`),
   },
   {
     name: "Pink Clay Soap",
-    price: "20",
+    price: "80",
     description: `Pink Clay is rich in Silica, which may help to improve skin elasticity and cell renewal, resulting in supple, younger-looking skin. Gently exfoliating and light on the skin, Pink Clay leaves skin feeling silky-soft and smooth. Plus, it can help to minimise blackheads and promote a radiant and balanced complexion.`,
     image: require(`../images/pinkclaysoap.jpg`),
   },
   {
     name: "Rose Petal Soap",
-    price: "20",
+    price: "80",
     description: `Soothes skin: The natural oils found in roses help retain moisture in the skin. This results in your skin feeling smooth and soft. The sugars in rose petals especially benefit those with sensitive skin. Acts as sunscreen: A rich source of vitamin C, rose petals act as an excellent sunblock.`,
     image: require(`../images/rosepetalsoap.jpg`),
   },
   {
     name: "Toy Soap",
-    price: "20",
+    price: "100",
     description: "",
     image: require(`../images/toysoap.jpeg`),
   },
   {
     name: "Cupcake Soap",
-    price: "20",
+    price: "70",
     description: `They are skin friendly.
       100% safe for Kids.`,
     image: require(`../images/cupcakesoap.jpg`),
   },
   {
     name: "Donut Soap",
-    price: "20",
+    price: "75",
     description: `They are skin friendly.
       100% safe for Kids.`,
     image: require(`../images/donutsoap.jpg`),
   },
   {
     name: "Loofah Soap",
-    price: "20",
+    price: "80",
     description: `The Loofah sponge is composed of slightly rough fibers that are very helpful to exfoliate your skin. In addition to this, it is also beneficial for you to eliminate dead skin cells that will automatically give you smooth, youthful as well as glowing skin.`,
     image: require(`../images/loofahsoap.jpg`),
   },
   {
     name: "Skin Tightening Soap",
-    price: "20",
+    price: "80",
     description: `While aging skin becomes loose so to make reduce this can be used.
       Benefits - Special Ingredients added.
       How often to be used - Daily for better results!!`,
@@ -152,7 +152,7 @@ export const soaps = [
   },
   {
     name: "Fairness Soap",
-    price: "20",
+    price: "80",
     description: `it makes skin tone brighter.
       Benefits - Special Ingredients added for more glowing and brightning skin.
       How often to be used - Daily for better results!!`,
@@ -160,7 +160,7 @@ export const soaps = [
   },
   {
     name: "Anti Tan Soap",
-    price: "20",
+    price: "80",
     description: `removes tan from skin naturally.
       Benefits - Special Ingredients added to remove tan from your skin
       How often to be used - Daily for better results!!`,
@@ -168,27 +168,25 @@ export const soaps = [
   },
   {
     name: "Letter Soap",
-    price: "20",
+    price: "100",
     description: ``,
     image: require(`../images/IMG_20210804_173732.jpg`),
   },
   {
     name: "Monogram Letter Soap",
-    price: "20",
-    description: `Gift personalised Initials or Full name Soap to your close ones!!
-
-      Preferred 7-8 letter name`,
+    price: "25",
+    description: `Gift personalised Initials or Full name Soap to your close ones!!. Preferred upto  7 letter name. Cost Rs 25/- for each letter`,
     image: require(`../images/lettersoap.jpg`),
   },
   {
     name: "Photo Soap",
-    price: "20",
+    price: "100",
     description: "",
     image: require(`../images/photosoap.jpeg`),
   },
   {
     name: "Green Tea Soap",
-    price: "20",
+    price: "80",
     description: `Rich in Antioxidants.
       Helps Protect Skin.
       Contains Vitamins for a Healthy Glow.
@@ -200,7 +198,7 @@ export const soaps = [
   },
   {
     name: "Candy soap",
-    price: "20",
+    price: "100",
     description: "",
     image: require(`../images/IMG_20210804_173842.jpg`),
   },
@@ -208,49 +206,49 @@ export const soaps = [
 export const perfumes = [
   {
     name: "Romance",
-    price: "20",
+    price: "650",
     description: "",
     image: require(`../images/romanceperfume.webp`),
   },
   {
     name: "Havc",
-    price: "20",
+    price: "350",
     description: "",
     image: require(`../images/havcperfume.jpg`),
   },
   {
     name: "David off",
-    price: "20",
+    price: "300",
     description: "",
     image: require(`../images/davidoffperfume.jpg`),
   },
   {
     name: "White musk",
-    price: "20",
+    price: "300",
     description: "",
     image: require(`../images/whitemuskperfume.jpg`),
   },
   {
     name: "Melody",
-    price: "20",
+    price: "400",
     description: "",
     image: require(`../images/melodyperfume.jpg`),
   },
   {
     name: "212 VIP",
-    price: "20",
+    price: "370",
     description: "",
     image: require(`../images/212VIP.jpg`),
   },
   {
     name: "Oudh",
-    price: "20",
+    price: "400",
     description: "",
     image: require(`../images/oudhperfume.jpg`),
   },
   {
     name: "CK 1",
-    price: "20",
+    price: "400",
     description: `Brand: Calvin Klein
       Content: 40ml
       Fragrance: Fruity
@@ -261,43 +259,43 @@ export const perfumes = [
   },
   {
     name: "Prophecy",
-    price: "20",
+    price: "450",
     description: "",
     image: require(`../images/prophecyperfume.jpg`),
   },
   {
     name: "Keress",
-    price: "20",
+    price: "475",
     description: "Classic And Mesmerizing Fragrance.",
     image: require(`../images/karessperfume.jpg`),
   },
   {
     name: "Gucci Bamboo",
-    price: "20",
+    price: "670",
     description: "",
     image: require(`../images/guccibambooperfume.jpg`),
   },
   {
     name: "Classic Jaguar",
-    price: "20",
+    price: "500",
     description: "",
     image: require(`../images/classicjaguarperfume.jpg`),
   },
   {
     name: "Bad Boy",
-    price: "20",
+    price: "450",
     description: `Unisex (Smell you won't ever Forget)`,
     image: require(`../images/badboyperfume.jpg`),
   },
   {
     name: "Green Irish",
-    price: "20",
+    price: "475",
     description: `Unisex (Smell you won't ever Forget)`,
     image: require(`../images/greenirishperfume.jpg`),
   },
   {
     name: "Fog Black",
-    price: "20",
+    price: "550",
     description: "",
     image: require(`../images/fogblackperfume.jpg`),
   },

@@ -54,6 +54,8 @@ export default function Services() {
           <p>
             A Return and Refund policy usually consists of:<br></br>If the
             product is damaged.<br></br>If a product is delivered wrong.
+            <span>Note :</span>
+            create an opening video of the package once recieved for a better clarity of the damage.
           </p>
         </div>
       </div>

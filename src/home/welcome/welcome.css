@@ -75,10 +75,9 @@
     transform:scale(1.05);
 }
 .home-image-wrapper{
-    height:calc(100vh - 80px);
+    height:90vh;
     width:50%;    
     background-image: url(../../images/IMG_20210804_173732.jpg); 
-    padding:0px 0px 0px 0px ;
     margin-top:80px;
     background-size:cover;
     background-position: center;
@@ -156,7 +155,7 @@
     
     }
     .home-image-wrapper{
-        width:50%;    
+        width:55%;    
     }
 }
 @media all and (max-width:1000px){
@@ -172,6 +171,9 @@
     }
     .welcome-container{
         width:100vw;
+    }
+    .welcome-links-container{
+        width:fit-content;
     }
 }
 @media all and (max-width:750px){

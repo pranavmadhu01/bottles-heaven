@@ -5,8 +5,10 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    /* background-color:RGBa(150, 150, 150,0.4); */
-    background-color:rgba(0,0,0,0.5);
+    background: url(../../images/bg.gif);
+    background-color:rgba(0,0,0,0.8);
+    background-blend-mode: color;
+    background-size: 300px 300px;
 }
 .services-target{
     display:flex;

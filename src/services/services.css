@@ -7,7 +7,7 @@
     width:100%;
     height:100vh;
     background-color:RGBA(34, 34, 34);
-    color:#969696;
+    color:white;
     overflow-y: auto;
 }
 .headline-wrapper{
@@ -39,7 +39,7 @@
 }
 .services{
     width:500px;
-    height:100%;
+    height:500px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -49,6 +49,10 @@
     border-radius:20px;
     box-shadow:0px 0px 3px 0.01px #f4cf7d;
     line-height:30px;
+    background: url(../images/bg.gif);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: color;
+    background-size: 300px 300px;
 }
 .services>h1{
     letter-spacing:4px;
