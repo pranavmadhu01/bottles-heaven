@@ -1,6 +1,6 @@
 .shop-section-wrapper{
     width:100%;
-    height:max-content;
+    height:fit-content;
     border-radius:10px;
     padding:60px 10px 10px 10px;
     display:flex;
@@ -14,7 +14,7 @@
     width:90%;
     margin:auto;
     height:max-content;
-    padding:5px;
+    padding:5px 5px 40px 5px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap:10px
