@@ -1,3 +1,3 @@
 checkout 
-        bottlesheaven.netlify.app 
-                                for the website
+        https://bottlesheaven.netlify.app/ 
+                                          for the website
