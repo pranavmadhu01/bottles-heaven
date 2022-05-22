@@ -15,13 +15,6 @@
     width:100%;
     height: 600px;
 }
-
-.map-wrapper>iframe{
-    width:100%;
-    height:100%;
-    border-radius:10px;
-    
-}
 .contact-wrapper{
     width:100%;
     height:100vh;    

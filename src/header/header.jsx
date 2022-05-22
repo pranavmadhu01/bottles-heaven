@@ -44,7 +44,6 @@ export default function Header(){
                     <li><a href="#shop" class="hamburger-links">Shop</a></li>
                     <li><a href="#services" class="hamburger-links">Services</a></li>
                     <li><a href="#contact" class="hamburger-links">Contact</a></li>
-                    <li><a href="#" class="hamburger-links">Admin</a></li>
                 </ul>
             </nav>
         </header>
