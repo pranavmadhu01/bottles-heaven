@@ -295,67 +295,67 @@ export const perfumes = [
   },
   {
     name: "Fog Black",
-    price: "550",
+    price: "650",
     description: "",
     image: require(`../images/fogblackperfume.jpg`),
   },
   {
     name: "Ellie Saab",
-    price: "20",
+    price: "800",
     description: "Classic And Mesmerizing Fragrance.",
     image: require(`../images/ellesaabperfume.jpg`),
   },
   {
     name: "Poisn by Dior",
-    price: "20",
+    price: "850",
     description: "Classic And Mesmerizing Fragrance.",
     image: require(`../images/poisnbydiorperfume.jpg`),
   },
   {
     name: "Blue Wave",
-    price: "20",
+    price: "350",
     description: `Unisex (Smell you won't ever Forget)`,
     image: require(`../images/bluewaveperfume.jpg`),
   },
   {
     name: "Invictus",
-    price: "20",
+    price: "450",
     description: "",
     image: require(`../images/invictusperfume.jpg`),
   },
   {
     name: "Figo Black",
-    price: "20",
+    price: "600",
     description: "",
     image: require(`../images/figoblackperfume.jpg`),
   },
   {
     name: "Nazneen",
-    price: "20",
+    price: "500",
     description: "",
     image: require(`../images/nazneenperfume.jpg`),
   },
   {
     name: "Dark Tempt",
-    price: "20",
+    price: "450",
     description: "",
     image: require(`../images/darktemptperfume.jpg`),
   },
   {
     name: "Relax",
-    price: "20",
+    price: "500",
     description: "",
     image: require(`../images/relaxperfume.jpg`),
   },
   {
     name: "Victoria Secret",
-    price: "20",
+    price: "550",
     description: "",
     image: require(`../images/victoriasecretperfume.jpg`),
   },
   {
     name: "Nuti Dissey By Issey Miyake",
-    price: "20",
+    price: "850",
     description: `100ml classy looking strong fragrance by ISSEY MIYAKE
 
       Nuti Dissey.
@@ -366,47 +366,47 @@ export const perfumes = [
   },
   {
     name: "Brut",
-    price: "20",
+    price: "850",
     description: `Fragrance with Sweet and strong!!
       Stays forever with you!!`,
     image: require(`../images/brutperfume.jpg`),
   },
   {
     name: "Signature",
-    price: "20",
+    price: "700",
     description: `Fragrance with Sweet and Fruity!!
       Totally summer feelss!!`,
     image: require(`../images/signatureperfume.jpg`),
   },
   {
     name: "Red-Black",
-    price: "20",
+    price: "750",
     description: `Fragrance with Strong as wood!!
       Tougher look wear your smell..`,
     image: require(`../images/redblackperfume.jpg`),
   },
   {
     name: "Creations",
-    price: "20",
+    price: "500",
     description: "Winter Fragrance for you all....",
     image: require(`../images/creationsperfume.jpg`),
   },
   {
     name: "Madrid",
-    price: "20",
+    price: "550",
     description: "Winter Fragrance for you all....",
     image: require(`../images/madridperfume.jpg`),
   },
   {
     name: "Issimiyaki men",
-    price: "100",
+    price: "650",
     description: `Get summer refreshing fragrance
       "issimiyaki men"`,
     image: require(`../images/issimiyakimenperfume.webp`),
   },
   {
     name: "Chance",
-    price: "20",
+    price: "650",
     description: `Chance - Winter ❄ smell of blossom flowers 🌸 that sweet touch...
 
       This Fragrance as sweet as flower smelling around the garden....
@@ -417,57 +417,57 @@ export const perfumes = [
 export const attar = [
   {
     name: "Mogra",
-    price: "20",
+    price: "120",
     description: "",
     image: require(`../images/mograattar.jpeg`),
   },
   {
     name: "Chandan",
-    price: "20",
+    price: "120",
     description: "",
     image: require(`../images/chandanattar.jpeg`),
   },
   {
     name: "Kesar",
-    price: "20",
+    price: "120",
     description: "",
     image: require(`../images/kesarattar.jpeg`),
   },
   {
     name: "Khas",
-    price: "20",
+    price: "120",
     description: "",
     image: require(`../images/khasattar.jpeg`),
   },
   {
     name: "Classic Jasmin",
-    price: "20",
+    price: "120",
     description: "",
     image: require(`../images/classicjasminattar.jpeg`),
   },
   {
     name: "Kasturi",
-    price: "20",
+    price: "120",
     description: "",
     image: require(`../images/kasturiattar.jpeg`),
   },
   {
     name: "Gulab",
-    price: "20",
+    price: "200",
     description: "",
     image: require(`../images/gulabattar.jpeg`),
   },
   {
     name: "Kewda",
-    price: "20",
+    price: "200",
     description: "",
     image: require(`../images/kewdaattar.jpeg`),
   },
   {
     name: "Heena",
-    price: "20",
+    price: "120  (6ml)",
     description: `Homemade Attar - HEENA
-      MOST DEMANDING ATTAR `,
+      MOST DEMANDING ATTAR Quantity : 6ml`,
     image: require(`../images/heenaattar.jpg`),
   },
 ];
@@ -530,7 +530,7 @@ export const facialbombs = [
 export const facewash = [
   {
     name: "Coffee Walnut",
-    price: "20",
+    price: "120 / 200",
     description: `Coffee can use it to exfoliate, treat acne, increase blood flow, it gives smooth skin prevents from spots on skin.
       Walnut helps in Reduces Dullness To A Great Extent
       Takes Care Of Tanned Skin Really Well.
@@ -542,13 +542,13 @@ export const facewash = [
   },
   {
     name: "Neem ",
-    price: "20",
+    price: "120 / 200",
     description: `Neem, a plant that has multiple curing and healing elements is not just limited to infections but also helps fight acne and dry skin. It’s an age-old remedy used to cure zits, pimples, rashes, and dry skin. the neem face wash also has healing property, gives smooth texture to the skin, and cures dry skin`,
     image: require(`../images/neemfacewash.jpg`),
   },
   {
     name: "Bridal(Sandal wood)",
-    price: "20",
+    price: "120 / 200",
     description: `Benefits -
       #1Lightens blemishes.
       #2 Cleanses your pores.
@@ -559,13 +559,13 @@ export const facewash = [
   },
   {
     name: "Charcoal",
-    price: "20",
+    price: "120 / 200",
     description: ` Charcoal removes excessive oils and purifies the skin. Charcoal helps in opening up the clogged pores and removing the whiteheads. Charcoal wipes out bacteria, dirt, impurities, toxins caused due to excessive exposure to pollution from your skin.`,
     image: require(`../images/charcoalfacewash.jpg`),
   },
   {
     name: "Strawberry",
-    price: "20",
+    price: "120 / 200",
     description: `They have anti-inflammatory, and anti-oxidants properties that treat burns, protect your skin from UV rays, Strawberry helps in slow ageing process. Strawberry that helps you get rid of dead skin cells. Those who have acne can use strawberries to get rid of the skin condition.`,
     image: require(`../images/strawberryfacewash.webp`),
   },
@@ -573,25 +573,25 @@ export const facewash = [
 export const bathsalts = [
   {
     name: "Lavender",
-    price: "20",
+    price: "230",
     description: `Moisturizes the skin. Soaking in a warm saltsolution, even just once a week for 15-20 minutes, offers great benefits in terms of improving the skin barrier function, hydrating the skin, and decreasing inflammation. ...Decreases stress. ...Helps insomnia. ...Offers vital healing properties. ...Soothes pain.`,
     image: require(`../images/lavenderbathsalt.jpg`),
   },
   {
     name: "Rose",
-    price: "20",
+    price: "230",
     description: "",
     image: require(`../images/rosebathsalt.jpg`),
   },
   {
     name: "Lemon",
-    price: "20",
+    price: "230",
     description: "",
     image: require(`../images/lemonbathsalt.jpg`),
   },
   {
     name: "Rainbow",
-    price: "20",
+    price: "230",
     description: "",
     image: require(`../images/rainbowbathsalt.jpg`),
   },
@@ -599,13 +599,13 @@ export const bathsalts = [
 export const faceserum = [
   {
     name: "24k Gold",
-    price: "20",
+    price: "300",
     description: "",
     image: require(`../images/24kgoldfaceserum.jpg`),
   },
   {
     name: "Natural",
-    price: "20",
+    price: "220",
     description: `Absorbs quickly into your skin. Serums are lighter skin care formulations than moisturizers. The thinner viscosity allows the serum to be absorbed more easily into your skin. This makes a face serum an ideal first step in the layering process.Soothes sensitive skin. Improves the appearance of fine lines and wrinkles. Some face serums contain ingredients like retinol that may help reduce the appearance of fine lines and wrinkles.Protects your skin from free radicals and future damage. Has the potential to provide more visible results. Feels light on your skin. Because they absorb quickly into your skin, a face serum doesn’t feel heavy or greasy.`,
     image: require(`../images/naturalfaceserum.jpg`),
   },
@@ -613,7 +613,7 @@ export const faceserum = [
 export const hairmask = [
   {
     name: "Castor oil Aloevera ",
-    price: "20",
+    price: "270",
     description: "",
     image: require(`../images/castoroilaloverahairmask.jpg`),
   },
@@ -621,13 +621,13 @@ export const hairmask = [
 export const lipcare = [
   {
     name: "Rose Bud Lip Scrub",
-    price: "20",
+    price: "60",
     description: `Dry Lips  Don't worry we got you scrub to remove dryness from your lips and make it soft like baby lips!!`,
     image: require(`../images/rosebudlipscrub.jpg`),
   },
   {
     name: "Honey Blossom Lip Balm",
-    price: "20",
+    price: "60",
     description: `To make it extra care for your lips we got your lips safe with Lip Balm.`,
     image: require(`../images/honeyblossomlipbalm.jpg`),
   },
@@ -635,10 +635,19 @@ export const lipcare = [
 export const bodybutter = [
   {
     name: "Rose Body Butter",
-    price: "20",
+    price: "350",
     description: ` Dry Skin during winter
       Don't worry we got this for you..
       Instant free from dryness during winter note - not to apply over FACE.`,
     image: require(`../images/rosebodybutter.jpg`),
   },
 ];
+export const ubtanpowder = [
+  {
+    name: "Ubtan powder",
+    price: "110",
+    description : "get fair and glowing skin",
+    image:require(`../images/ubtanpowder.jpg`),
+  }
+  
+]

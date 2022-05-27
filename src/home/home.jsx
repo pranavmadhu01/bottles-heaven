@@ -14,7 +14,7 @@ export default function Home(){
             <Products />
             <About />
             <Photogallery />
-            <Faq />
+            {/* <Faq /> */}
             <Homefooter />
         
         
