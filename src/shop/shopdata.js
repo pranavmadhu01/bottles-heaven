@@ -417,55 +417,55 @@ export const perfumes = [
 export const attar = [
   {
     name: "Mogra",
-    price: "120",
+    price: "120 (6 ml)",
     description: "",
     image: require(`../images/mograattar.jpeg`),
   },
   {
     name: "Chandan",
-    price: "120",
+    price: "120 (6 ml)",
     description: "",
     image: require(`../images/chandanattar.jpeg`),
   },
   {
     name: "Kesar",
-    price: "120",
+    price: "120 (6 ml)",
     description: "",
     image: require(`../images/kesarattar.jpeg`),
   },
   {
     name: "Khas",
-    price: "120",
+    price: "120 (6 ml)",
     description: "",
     image: require(`../images/khasattar.jpeg`),
   },
   {
     name: "Classic Jasmin",
-    price: "120",
+    price: "120 (6 ml)",
     description: "",
     image: require(`../images/classicjasminattar.jpeg`),
   },
   {
     name: "Kasturi",
-    price: "120",
+    price: "120 (6 ml)",
     description: "",
     image: require(`../images/kasturiattar.jpeg`),
   },
   {
     name: "Gulab",
-    price: "200",
+    price: "200 (6 ml)",
     description: "",
     image: require(`../images/gulabattar.jpeg`),
   },
   {
     name: "Kewda",
-    price: "200",
+    price: "200 (6 ml)",
     description: "",
     image: require(`../images/kewdaattar.jpeg`),
   },
   {
     name: "Heena",
-    price: "120  (6ml)",
+    price: "120 (6 ml)",
     description: `Homemade Attar - HEENA
       MOST DEMANDING ATTAR Quantity : 6ml`,
     image: require(`../images/heenaattar.jpg`),
@@ -622,13 +622,13 @@ export const lipcare = [
   {
     name: "Rose Bud Lip Scrub",
     price: "60",
-    description: `Dry Lips  Don't worry we got you scrub to remove dryness from your lips and make it soft like baby lips!!`,
+    description: `Dry Lips  Don't worry we got you scrub to remove dryness from your lips and make it soft like baby lips!! Customisation is availabe`,
     image: require(`../images/rosebudlipscrub.jpg`),
   },
   {
     name: "Honey Blossom Lip Balm",
     price: "60",
-    description: `To make it extra care for your lips we got your lips safe with Lip Balm.`,
+    description: `To make it extra care for your lips we got your lips safe with Lip Balm. Customisation is available`,
     image: require(`../images/honeyblossomlipbalm.jpg`),
   },
 ];

@@ -74,7 +74,7 @@ export default function Products(){
                         name = "Body Butter"
                     />
                     <div className='products'>
-                        <a  href="#" className="load-more">
+                        <a  href="#shop" className="load-more">
                             <BiLoaderCircle  className="loading-icon" />
                             <h3>LOAD more</h3>
                         </a>

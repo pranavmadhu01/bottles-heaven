@@ -5,9 +5,9 @@ import { soaps, perfumes, attar, facialbombs, facewash, bathsalts, faceserum, ha
 
 function Shop() {
   return (
-    <div className="shop-outer-wrapper" id="shop">
+    <div className="shop-outer-wrapper">
       <div className="headline-wrapper">
-        <h1>SHOP</h1>
+        <h1 id="shop">SHOP</h1>
       </div>
       <Shopsections name="SOAPS" idsection="soaps" data={soaps} />
       <Shopsections name="PERFUMES" idsection="perfumes" data={perfumes} />

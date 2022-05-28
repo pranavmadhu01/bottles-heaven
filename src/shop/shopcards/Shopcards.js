@@ -22,7 +22,7 @@ function Shopcards({ image, cardname, price, description }) {
           <img src={image} className="card-image" loading="lazy" alt=""></img>
           <p className="description">{description}</p>
           <a
-            href="https://wa.me/c/919321763795"
+            href="https://wa.me/message/CPSJ4HNG5RPKG1"
             target="_blank"
             rel="noreferrer"
             className="buy-button"
@@ -42,7 +42,7 @@ function Shopcards({ image, cardname, price, description }) {
             <FaShippingFast className="rupees-sign" />
           </small>
           <a
-            href="https://wa.me/c/919321763795"
+            href="https://wa.me/message/CPSJ4HNG5RPKG1"
             target="_blank"
             rel="noreferrer"
             className="buy-button"

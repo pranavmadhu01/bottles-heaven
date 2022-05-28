@@ -9,7 +9,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 export default function Home(){
     return(
         <div className="home-outer-wrapper" id="wrapper">
-            <a href="https://wa.me/c/919321763795" target="_blank"className="fixed-chat-icon"><BsWhatsapp  /></a>
+            <a href="https://wa.me/message/CPSJ4HNG5RPKG1" target="_blank" className="fixed-chat-icon"><BsWhatsapp  /></a>
             <Welcome  />
             <Products />
             <About />

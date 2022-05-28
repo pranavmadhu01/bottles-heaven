@@ -8,6 +8,7 @@
     overflow-y:auto;
     gap:100px;
     padding-bottom:30px;
+    padding-top:100px;
     background-color:#222222;
     height:100vh;
 }

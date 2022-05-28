@@ -23,7 +23,7 @@ export default function Services() {
           <p>
             Customer Service is our priority, we are quick on Emails and
             Whatsapp.<br></br>bottlesheaven@gmail.com /
-            <a href="https://wa.me/c/919321763795">9321763795</a>
+            <a href="https://wa.me/message/CPSJ4HNG5RPKG1">9321763795</a>
             <br></br>Within 24HOURS your query would be solved.
           </p>
         </div>
@@ -54,7 +54,8 @@ export default function Services() {
           <p>
             A Return and Refund policy usually consists of:<br></br>If the
             product is damaged.<br></br>If a product is delivered wrong.
-            <span>Note :</span>
+            <br></br>
+            <span>Note : </span>
             create an opening video of the package once recieved for a better clarity of the damage.
           </p>
         </div>
