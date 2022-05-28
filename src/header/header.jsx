@@ -32,7 +32,7 @@ export default function Header() {
   return (
     <header className="header">
       <span className="header-logo-wrapper">
-        <img src={logo} alt="logo of bottles heaven" className="logo"></img>
+        <a href ="#home" style={{width:"fit-content",height:"fit-content"}}><img src={logo} alt="logo of bottles heaven" className="logo"></img></a>
         <h1>
           <span className="letter-color">B</span>OTTLES{" "}
           <span className="letter-color">H</span>EAVEN

@@ -2,12 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    /* font-family:'poppins',sans-serif; */
-    /* font-family: 'Lobster', cursive; */
-    /* font-family: 'Fredericka the Great', cursive; */
-    /* font-family: 'Redressed', cursive; */
-    /* font-family: 'Rancho', cursive; */
-    /* font-family: 'Courgette', cursive;  */
     font-family: 'Amita', cursive;
 }
 .home-outer-wrapper{
@@ -19,6 +13,7 @@
     gap:100px;
     overflow-y:auto;
     overflow-x:hidden;
+    padding-bottom:20px;
 
 }
 .fixed-chat-icon{

@@ -162,4 +162,23 @@ span{
         padding:20px;
         height:max-content;
     }
+    .whatsapp{
+        color:#4cc95b;
+    
+    }
+    .facebook{
+        color:#4167b2;
+    }
+    .instagram{
+        color:#7b3bc3;
+    }
+    .youtube{
+        color:#fe0000;
+    }
+    .linkedin{
+        color:#0b65c3
+    }
+    .mail{
+        color:#f44236;
+    }
 }
