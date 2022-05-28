@@ -1,67 +1,13 @@
-.photo-gallery-container{
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    padding:50px 10px 10px 10px ;
-    
+.photo-gallery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:90px;
 }
-.photo-gallery{
-    display:grid;
-    grid-auto-flow:column;
-    overflow-x:auto;
-    padding:20px;
-    column-gap:10px;
-    border-radius:10px;
-}
-.photo-gallery::-webkit-scrollbar{
-    height:10px;
-}
-
-
-.photo{
-    height:300px;
-    width:300px;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-color:white;
-    border-radius:10px;
-    border:1px solid #f4cf7d;
-    transition: transform 300ms ease-in-out;
-}
-
-.photo-one{
-    background-image: url("../../images/attar.jpg");
-}
-.photo-two{
-    background-image:url("../../images/IMG_20210804_173657.jpg");
-}
-.photo-three{
-    background-image:url("../../images/IMG_20210804_173842.jpg");
-}
-.photo-four{
-    background-image:url("../../images/IMG_20211026_212340.jpg");
-}
-.photo-five{
-    background-image:url("../../images/IMG_20211027_023436.jpg");
-}
-@media all and (max-width:1200px){
-    .photo-gallery-container{
-        align-items:unset;
-        flex-direction:column;
-    }
-    .photo-gallery{
-        overflow-y:hidden;
-    }
-}
-@media all and (max-width:1000px){
-    .photo-gallery::-webkit-scrollbar{
-        height:0px;
-    }
-    .photo{
-        height:250px;
-        width:250px;
-
-    }
-
+@media all and (max-width: 1200px) {
+  .photo-gallery-container {
+    align-items: unset;
+    flex-direction: column;
+    padding: 0px;
+  }
 }
