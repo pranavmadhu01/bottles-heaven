@@ -1,7 +1,7 @@
 import React from "react";
 import "./shop.css";
 import Shopsections from "./shopsections/Shopsections";
-import { soaps, perfumes, attar, facialbombs, facewash, bathsalts, faceserum, hairmask, lipcare, bodybutter, ubtanpowder } from './shopdata';
+import { soaps, perfumes, attar, facialbombs, facewash, bathsalts, faceserum, hairmask, lipcare, bodybutter, ubtanpowder,hampers } from './shopdata';
 
 function Shop() {
   return (
@@ -20,6 +20,7 @@ function Shop() {
       <Shopsections name="LIP CARE" idsection="lipcare" data={lipcare} />
       <Shopsections name="BODY BUTTER" idsection ="bodybutter" data={bodybutter} />
       <Shopsections name="UBTAN POWDER" idsection="ubtanpowder" data={ubtanpowder} />
+      <Shopsections name="GIFT HAMPERS" idsection="hampers" data={hampers} />
     </div>
   );
 }

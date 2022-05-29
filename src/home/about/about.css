@@ -22,6 +22,15 @@
 .content-one>h1>span{
     color:white;
 }
+.founder-image{
+    width:300px;
+    height:400px;
+    object-fit: cover;
+    object-position: top;
+    border-radius:20px;
+     border:2px solid #f4cf7d;
+     padding:20px;
+}
 .content-one>p{
     width:50%;
     font-size:1.2em;

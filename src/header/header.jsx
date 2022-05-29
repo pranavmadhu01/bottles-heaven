@@ -68,6 +68,9 @@ export default function Header() {
       <AiOutlineMenu className="hamburger-menu-icon" id="hamberger-icon" />
       <nav className="hamburger-nav-bar" id="hamberger-menu">
         <AiOutlineClose className="close-menu-icon" id="hamberger-close-icon" />
+        <p className="creator-info-wrapper">
+          Designed and coded by<br></br><a href="https://linktr.ee/_pranavmadhu_" className="creator-info-link" target="_blank_">@pranavmadhu</a>
+        </p>
         <ul>
           <li>
             <a href="#home" class="hamburger-links">

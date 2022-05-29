@@ -17,7 +17,13 @@
     padding:5px 5px 40px 5px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:10px
+    gap:10px;
+    overflow: hidden;
+}
+.hamper-content{
+    width:100%;
+    height:100%;
+    word-wrap: break-word;
 }
 @media all and (max-width:1300px)
 {

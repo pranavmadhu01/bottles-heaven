@@ -475,55 +475,66 @@ export const facialbombs = [
   {
     name: "Goat Milk",
     price: "10",
-    description: "",
+    description: `Facial bombs are the BEST SELLERS OF Bottles heaven
+    gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/goatmilkfacialbomb.jpeg`),
   },
   {
     name: "Charcoal",
     price: "10",
-    description: "Made with natural ingredients and 100% results",
+    description: `Made with natural ingredients and 100% results
+     Facial bombs are the BEST SELLERS OF Bottles heaven
+gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/charcoalfacialbomb.jpg`),
   },
   {
     name: "Red Wine",
     price: "10",
-    description: "Made with natural ingredients and 100% results",
+    description: `Made with natural ingredients and 100% results
+     Facial bombs are the BEST SELLERS OF Bottles heaven
+gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/redwinefacialbomb.jpg`),
   },
   {
     name: "Neem Tulsi",
     price: "10",
-    description: "",
+    description: `Facial bombs are the BEST SELLERS OF Bottles heaven
+    gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/neemtulsifacialbomb.jpeg`),
   },
   {
     name: "Multani Miti",
     price: "10",
-    description: "",
+    description: `Facial bombs are the BEST SELLERS OF Bottles heaven
+    gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/multanifacialbomb.jpeg`),
   },
   {
     name: "Gold",
     price: "10",
-    description: "",
+    description: `Facial bombs are the BEST SELLERS OF Bottles heaven
+    gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/goldfacialbomb.jpeg`),
   },
   {
     name: "Mix Fruit",
     price: "10",
-    description: "made with natural ingredients and 100% results",
+    description: `made with natural ingredients and 100% results Facial bombs are the BEST SELLERS OF Bottles heaven
+    gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/mixfruitfacialbomb.jpg`),
   },
   {
     name: "Diamond",
     price: "10",
-    description: "",
+    description: `Facial bombs are the BEST SELLERS OF Bottles heaven
+    gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require("../images/diamondfacialbomb.jpeg"),
   },
   {
     name: "Aloevera",
     price: "10",
-    description: "",
+    description: `Facial bombs are the BEST SELLERS OF Bottles heaven
+    gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require("../images/aloeverafacialbomb.jpeg"),
   },
 ];
@@ -595,12 +606,18 @@ export const bathsalts = [
     description: "",
     image: require(`../images/rainbowbathsalt.jpg`),
   },
+  {
+    name: "Bubblegum",
+    price: "230",
+    description: "",
+    image: require(`../images/bubblegumbathsalt.jpeg`),
+  },
 ];
 export const faceserum = [
   {
     name: "24k Gold",
     price: "300",
-    description: "",
+    description: "Gives absolute stunning shine & nourishes skin",
     image: require(`../images/24kgoldfaceserum.jpg`),
   },
   {
@@ -614,7 +631,8 @@ export const hairmask = [
   {
     name: "Castor oil Aloevera ",
     price: "270",
-    description: "",
+    description:
+      " Get smooth and soft hair with Bottles Heaven CatorAloe Hair mask",
     image: require(`../images/castoroilaloverahairmask.jpg`),
   },
 ];
@@ -646,8 +664,21 @@ export const ubtanpowder = [
   {
     name: "Ubtan powder",
     price: "110",
-    description : "get fair and glowing skin",
-    image:require(`../images/ubtanpowder.jpg`),
-  }
-  
-]
+    description: "get fair and glowing skin",
+    image: require(`../images/ubtanpowder.jpg`),
+  },
+];
+export const hampers = [
+  {
+    image: require(`../images/hamper2.jpg`),
+  },
+  {
+    image: require(`../images/hamper1.jpg`),
+  },
+  {
+    image: require(`../images/hamper4.jpg`),
+  },
+  {
+    image: require(`../images/IMG_20211026_212340.jpg`),
+  },
+];

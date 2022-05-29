@@ -32,7 +32,7 @@ export default function Photogallery() {
         infiniteLoop
         autoFocus
         dynamicHeight={300}
-        centerMode={true}
+        // centerMode={true}
         emulateTouch={true}
         showThumbs ={false}
         showArrows={false}
