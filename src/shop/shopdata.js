@@ -206,7 +206,7 @@ export const soaps = [
 export const perfumes = [
   {
     name: "Ferrari",
-    price: "650",
+    price: "725",
     description: `This one comes with a strong and mild sweet fragrance
     Can be used - Unisex
     Totally mesmerizing fragrance..`,
@@ -634,16 +634,16 @@ export const faceserum = [
     description: `Absorbs quickly into your skin. Serums are lighter skin care formulations than moisturizers. The thinner viscosity allows the serum to be absorbed more easily into your skin. This makes a face serum an ideal first step in the layering process.Soothes sensitive skin. Improves the appearance of fine lines and wrinkles. Some face serums contain ingredients like retinol that may help reduce the appearance of fine lines and wrinkles.Protects your skin from free radicals and future damage. Has the potential to provide more visible results. Feels light on your skin. Because they absorb quickly into your skin, a face serum doesn’t feel heavy or greasy.`,
     image: require(`../images/naturalfaceserum.jpg`),
   },
-  // {
-  //   name: "Hyaluronic Acid serum",
-  //   price: "350",
-  //   description: `It helps to keep skin hydrated and looking young.
-  //   A serum with hyaluronic acid can improve the appearance of wrinkles and fine lines.
-  //   It can also help to improve skin tone and texture.
-  //   Helps to retain moisture in the skin.
-  //   It can be effective in treating dry skin conditions.`,
-  //   image: require(`../images/hyaluronicacidserum.jpg`),
-  // },
+  {
+    name: "Hyaluronic Acid serum",
+    price: "350",
+    description: `It helps to keep skin hydrated and looking young.
+    A serum with hyaluronic acid can improve the appearance of wrinkles and fine lines.
+    It can also help to improve skin tone and texture.
+    Helps to retain moisture in the skin.
+    It can be effective in treating dry skin conditions.`,
+    image: require(`../images/hyaluronicacidserum.jpg`),
+  },
 ];
 export const hairmask = [
   {
