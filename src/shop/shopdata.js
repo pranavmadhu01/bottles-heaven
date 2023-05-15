@@ -205,6 +205,12 @@ export const soaps = [
 ];
 export const perfumes = [
   {
+    name: "Golden Vanila",
+    price: "450",
+    description: "",
+    image: require(`../images/goldenvanilaperfume.jpeg`),
+  },
+  {
     name: "Ferrari",
     price: "725",
     description: `This one comes with a strong and mild sweet fragrance
