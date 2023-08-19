@@ -206,13 +206,13 @@ export const soaps = [
 export const perfumes = [
   {
     name: "Golden Vanila",
-    price: "450",
+    price: "500",
     description: "",
     image: require(`../images/goldenvanilaperfume.jpeg`),
   },
   {
     name: "Ferrari",
-    price: "725",
+    price: "775",
     description: `This one comes with a strong and mild sweet fragrance
     Can be used - Unisex
     Totally mesmerizing fragrance..`,
@@ -220,49 +220,49 @@ export const perfumes = [
   },
   {
     name: "Romance",
-    price: "650",
+    price: "700",
     description: "",
     image: require(`../images/romanceperfume.webp`),
   },
   {
     name: "Havc",
-    price: "350",
+    price: "400",
     description: "",
     image: require(`../images/havcperfume.jpg`),
   },
   {
     name: "David off",
-    price: "300",
+    price: "350",
     description: "",
     image: require(`../images/davidoffperfume.jpg`),
   },
   {
     name: "White musk",
-    price: "300",
+    price: "350",
     description: "",
     image: require(`../images/whitemuskperfume.jpg`),
   },
   {
     name: "Melody",
-    price: "400",
+    price: "450",
     description: "",
     image: require(`../images/melodyperfume.jpg`),
   },
   {
     name: "212 VIP",
-    price: "370",
+    price: "420",
     description: "",
     image: require(`../images/212VIP.jpg`),
   },
   {
     name: "Oudh",
-    price: "400",
+    price: "450",
     description: "",
     image: require(`../images/oudhperfume.jpg`),
   },
   {
     name: "CK 1",
-    price: "400",
+    price: "450",
     description: `Brand: Calvin Klein
       Content: 40ml
       Fragrance: Fruity
@@ -273,103 +273,103 @@ export const perfumes = [
   },
   {
     name: "Prophecy",
-    price: "450",
+    price: "500",
     description: "",
     image: require(`../images/prophecyperfume.jpg`),
   },
   {
     name: "Keress",
-    price: "475",
+    price: "525",
     description: "Classic And Mesmerizing Fragrance.",
     image: require(`../images/karessperfume.jpg`),
   },
   {
     name: "Gucci Bamboo",
-    price: "670",
+    price: "720",
     description: "",
     image: require(`../images/guccibambooperfume.jpg`),
   },
   {
     name: "Classic Jaguar",
-    price: "500",
+    price: "550",
     description: "",
     image: require(`../images/classicjaguarperfume.jpg`),
   },
   {
     name: "Bad Boy",
-    price: "450",
+    price: "500",
     description: `Unisex (Smell you won't ever Forget)`,
     image: require(`../images/badboyperfume.jpg`),
   },
   {
     name: "Green Irish",
-    price: "475",
+    price: "525",
     description: `Unisex (Smell you won't ever Forget)`,
     image: require(`../images/greenirishperfume.jpg`),
   },
   {
     name: "Fog Black",
-    price: "650",
+    price: "700",
     description: "",
     image: require(`../images/fogblackperfume.jpg`),
   },
   {
     name: "Ellie Saab",
-    price: "800",
+    price: "850",
     description: "Classic And Mesmerizing Fragrance.",
     image: require(`../images/ellesaabperfume.jpg`),
   },
   {
     name: "Poisn by Dior",
-    price: "850",
+    price: "900",
     description: "Classic And Mesmerizing Fragrance.",
     image: require(`../images/poisnbydiorperfume.jpg`),
   },
   {
     name: "Blue Wave",
-    price: "350",
+    price: "400",
     description: `Unisex (Smell you won't ever Forget)`,
     image: require(`../images/bluewaveperfume.jpg`),
   },
   {
     name: "Invictus",
-    price: "450",
+    price: "500",
     description: "",
     image: require(`../images/invictusperfume.jpg`),
   },
   {
     name: "Figo Black",
-    price: "600",
+    price: "650",
     description: "",
     image: require(`../images/figoblackperfume.jpg`),
   },
   {
     name: "Nazneen",
-    price: "500",
+    price: "550",
     description: "",
     image: require(`../images/nazneenperfume.jpg`),
   },
   {
     name: "Dark Tempt",
-    price: "450",
+    price: "500",
     description: "",
     image: require(`../images/darktemptperfume.jpg`),
   },
   {
     name: "Relax",
-    price: "500",
+    price: "550",
     description: "",
     image: require(`../images/relaxperfume.jpg`),
   },
   {
     name: "Victoria Secret",
-    price: "550",
+    price: "600",
     description: "",
     image: require(`../images/victoriasecretperfume.jpg`),
   },
   {
     name: "Nuti Dissey By Issey Miyake",
-    price: "850",
+    price: "900",
     description: `100ml classy looking strong fragrance by ISSEY MIYAKE
 
       Nuti Dissey.
@@ -380,47 +380,47 @@ export const perfumes = [
   },
   {
     name: "Brut",
-    price: "850",
+    price: "900",
     description: `Fragrance with Sweet and strong!!
       Stays forever with you!!`,
     image: require(`../images/brutperfume.jpg`),
   },
   {
     name: "Signature",
-    price: "700",
+    price: "750",
     description: `Fragrance with Sweet and Fruity!!
       Totally summer feelss!!`,
     image: require(`../images/signatureperfume.jpg`),
   },
   {
     name: "Red-Black",
-    price: "750",
+    price: "800",
     description: `Fragrance with Strong as wood!!
       Tougher look wear your smell..`,
     image: require(`../images/redblackperfume.jpg`),
   },
   {
     name: "Creations",
-    price: "500",
+    price: "550",
     description: "Winter Fragrance for you all....",
     image: require(`../images/creationsperfume.jpg`),
   },
   {
     name: "Madrid",
-    price: "550",
+    price: "600",
     description: "Winter Fragrance for you all....",
     image: require(`../images/madridperfume.jpg`),
   },
   {
     name: "Issimiyaki men",
-    price: "650",
+    price: "700",
     description: `Get summer refreshing fragrance
       "issimiyaki men"`,
     image: require(`../images/issimiyakimenperfume.webp`),
   },
   {
     name: "Chance",
-    price: "650",
+    price: "700",
     description: `Chance - Winter ❄ smell of blossom flowers 🌸 that sweet touch...
 
       This Fragrance as sweet as flower smelling around the garden....
