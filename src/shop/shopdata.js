@@ -250,7 +250,7 @@ export const perfumes = [
   },
   {
     name: "212 VIP",
-    price: "420",
+    price: "450",
     description: "",
     image: require(`../images/212VIP.jpg`),
   },
@@ -303,7 +303,7 @@ export const perfumes = [
   },
   {
     name: "Green Irish",
-    price: "525",
+    price: "500",
     description: `Unisex (Smell you won't ever Forget)`,
     image: require(`../images/greenirishperfume.jpg`),
   },
@@ -413,7 +413,7 @@ export const perfumes = [
   },
   {
     name: "Issimiyaki men",
-    price: "700",
+    price: "650",
     description: `Get summer refreshing fragrance
       "issimiyaki men"`,
     image: require(`../images/issimiyakimenperfume.webp`),
@@ -428,40 +428,48 @@ export const perfumes = [
     image: require(`../images/chanceperfume.jpg`),
   },
 ];
+export const pocketPerfumes = [
+  {
+    name: "",
+    price: "100 (10 ml)",
+    description: "",
+    image: require(`../images/pocketperfume.jpeg`),
+  },
+]
 export const attar = [
   {
     name: "Mogra",
-    price: "120 (6 ml)",
+    price: "120 (12 ml)",
     description: "",
     image: require(`../images/mograattar.jpeg`),
   },
   {
     name: "Chandan",
-    price: "120 (6 ml)",
+    price: "120 (12 ml)",
     description: "",
     image: require(`../images/chandanattar.jpeg`),
   },
   {
     name: "Kesar",
-    price: "120 (6 ml)",
+    price: "120 (12 ml)",
     description: "",
     image: require(`../images/kesarattar.jpeg`),
   },
   {
     name: "Khas",
-    price: "120 (6 ml)",
+    price: "120 (12 ml)",
     description: "",
     image: require(`../images/khasattar.jpeg`),
   },
   {
     name: "Classic Jasmin",
-    price: "120 (6 ml)",
+    price: "120 (12 ml)",
     description: "",
     image: require(`../images/classicjasminattar.jpeg`),
   },
   {
     name: "Kasturi",
-    price: "120 (6 ml)",
+    price: "120 (12 ml)",
     description: "",
     image: require(`../images/kasturiattar.jpeg`),
   },
@@ -473,13 +481,13 @@ export const attar = [
   },
   {
     name: "Kewda",
-    price: "200 (6 ml)",
+    price: "200 (12 ml)",
     description: "",
     image: require(`../images/kewdaattar.jpeg`),
   },
   {
     name: "Heena",
-    price: "120 (6 ml)",
+    price: "120 (12 ml)",
     description: `Homemade Attar - HEENA
       MOST DEMANDING ATTAR Quantity : 6ml`,
     image: require(`../images/heenaattar.jpg`),
@@ -488,14 +496,14 @@ export const attar = [
 export const facialbombs = [
   {
     name: "Goat Milk",
-    price: "10",
+    price: "12",
     description: `Facial bombs are the BEST SELLERS OF Bottles heaven
     gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/goatmilkfacialbomb.jpeg`),
   },
   {
     name: "Charcoal",
-    price: "10",
+    price: "12",
     description: `Made with natural ingredients and 100% results
      Facial bombs are the BEST SELLERS OF Bottles heaven
 gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
@@ -503,7 +511,7 @@ gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
   },
   {
     name: "Red Wine",
-    price: "10",
+    price: "12",
     description: `Made with natural ingredients and 100% results
      Facial bombs are the BEST SELLERS OF Bottles heaven
 gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
@@ -511,42 +519,42 @@ gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
   },
   {
     name: "Neem Tulsi",
-    price: "10",
+    price: "12",
     description: `Facial bombs are the BEST SELLERS OF Bottles heaven
     gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/neemtulsifacialbomb.jpeg`),
   },
   {
     name: "Multani Miti",
-    price: "10",
+    price: "12",
     description: `Facial bombs are the BEST SELLERS OF Bottles heaven
     gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/multanifacialbomb.jpeg`),
   },
   {
     name: "Gold",
-    price: "10",
+    price: "12",
     description: `Facial bombs are the BEST SELLERS OF Bottles heaven
     gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/goldfacialbomb.jpeg`),
   },
   {
     name: "Mix Fruit",
-    price: "10",
+    price: "12",
     description: `made with natural ingredients and 100% results Facial bombs are the BEST SELLERS OF Bottles heaven
     gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require(`../images/mixfruitfacialbomb.jpg`),
   },
   {
     name: "Diamond",
-    price: "10",
+    price: "12",
     description: `Facial bombs are the BEST SELLERS OF Bottles heaven
     gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require("../images/diamondfacialbomb.jpeg"),
   },
   {
     name: "Aloevera",
-    price: "10",
+    price: "12",
     description: `Facial bombs are the BEST SELLERS OF Bottles heaven
     gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
     image: require("../images/aloeverafacialbomb.jpeg"),
@@ -626,11 +634,41 @@ export const bathsalts = [
     description: "",
     image: require(`../images/bubblegumbathsalt.jpeg`),
   },
+  {
+    name: "Lavender",
+    price: "150 (80 gm)",
+    description: `Moisturizes the skin. Soaking in a warm saltsolution, even just once a week for 15-20 minutes, offers great benefits in terms of improving the skin barrier function, hydrating the skin, and decreasing inflammation. ...Decreases stress. ...Helps insomnia. ...Offers vital healing properties. ...Soothes pain.`,
+    image: require(`../images/lavenderbathsalt.jpg`),
+  },
+  {
+    name: "Rose",
+    price: "150 (80 gm)",
+    description: "",
+    image: require(`../images/rosebathsalt.jpg`),
+  },
+  {
+    name: "Lemon",
+    price: "150 (80 gm)",
+    description: "",
+    image: require(`../images/lemonbathsalt.jpg`),
+  },
+  {
+    name: "Rainbow",
+    price: "150 (80 gm)",
+    description: "",
+    image: require(`../images/rainbowbathsalt.jpg`),
+  },
+  {
+    name: "Bubblegum",
+    price: "150 (80 gm)",
+    description: "",
+    image: require(`../images/bubblegumbathsalt.jpeg`),
+  },
 ];
 export const faceserum = [
   {
     name: "24k Gold",
-    price: "300",
+    price: "500 (30 ml)",
     description: "Gives absolute stunning shine & nourishes skin",
     image: require(`../images/24kgoldfaceserum.jpg`),
   },
@@ -654,7 +692,7 @@ export const faceserum = [
 export const hairmask = [
   {
     name: "Castor oil Aloevera ",
-    price: "270",
+    price: "350 (50 gm)",
     description:
       " Get smooth and soft hair with Bottles Heaven CatorAloe Hair mask",
     image: require(`../images/castoroilaloverahairmask.jpg`),
