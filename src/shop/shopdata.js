@@ -435,7 +435,7 @@ export const pocketPerfumes = [
     description: "",
     image: require(`../images/pocketperfume.jpeg`),
   },
-]
+];
 export const attar = [
   {
     name: "Mogra",
@@ -563,7 +563,7 @@ gives glowing skin and healthy-looking skin in just 15 minutes like facial.`,
 export const facewash = [
   {
     name: "Coffee Walnut",
-    price: "120 / 200",
+    price: "120",
     description: `Coffee can use it to exfoliate, treat acne, increase blood flow, it gives smooth skin prevents from spots on skin.
       Walnut helps in Reduces Dullness To A Great Extent
       Takes Care Of Tanned Skin Really Well.
@@ -575,13 +575,13 @@ export const facewash = [
   },
   {
     name: "Neem ",
-    price: "120 / 200",
+    price: "120",
     description: `Neem, a plant that has multiple curing and healing elements is not just limited to infections but also helps fight acne and dry skin. It’s an age-old remedy used to cure zits, pimples, rashes, and dry skin. the neem face wash also has healing property, gives smooth texture to the skin, and cures dry skin`,
     image: require(`../images/neemfacewash.jpg`),
   },
   {
     name: "Bridal(Sandal wood)",
-    price: "120 / 200",
+    price: "120",
     description: `Benefits -
       #1Lightens blemishes.
       #2 Cleanses your pores.
@@ -592,13 +592,13 @@ export const facewash = [
   },
   {
     name: "Charcoal",
-    price: "120 / 200",
+    price: "120",
     description: ` Charcoal removes excessive oils and purifies the skin. Charcoal helps in opening up the clogged pores and removing the whiteheads. Charcoal wipes out bacteria, dirt, impurities, toxins caused due to excessive exposure to pollution from your skin.`,
     image: require(`../images/charcoalfacewash.jpg`),
   },
   {
     name: "Strawberry",
-    price: "120 / 200",
+    price: "120",
     description: `They have anti-inflammatory, and anti-oxidants properties that treat burns, protect your skin from UV rays, Strawberry helps in slow ageing process. Strawberry that helps you get rid of dead skin cells. Those who have acne can use strawberries to get rid of the skin condition.`,
     image: require(`../images/strawberryfacewash.webp`),
   },
@@ -606,61 +606,31 @@ export const facewash = [
 export const bathsalts = [
   {
     name: "Lavender",
-    price: "230",
+    price: "200",
     description: `Moisturizes the skin. Soaking in a warm saltsolution, even just once a week for 15-20 minutes, offers great benefits in terms of improving the skin barrier function, hydrating the skin, and decreasing inflammation. ...Decreases stress. ...Helps insomnia. ...Offers vital healing properties. ...Soothes pain.`,
     image: require(`../images/lavenderbathsalt.jpg`),
   },
   {
     name: "Rose",
-    price: "230",
+    price: "200",
     description: "",
     image: require(`../images/rosebathsalt.jpg`),
   },
   {
     name: "Lemon",
-    price: "230",
+    price: "200",
     description: "",
     image: require(`../images/lemonbathsalt.jpg`),
   },
   {
     name: "Rainbow",
-    price: "230",
+    price: "200",
     description: "",
     image: require(`../images/rainbowbathsalt.jpg`),
   },
   {
     name: "Bubblegum",
-    price: "230",
-    description: "",
-    image: require(`../images/bubblegumbathsalt.jpeg`),
-  },
-  {
-    name: "Lavender",
-    price: "150 (80 gm)",
-    description: `Moisturizes the skin. Soaking in a warm saltsolution, even just once a week for 15-20 minutes, offers great benefits in terms of improving the skin barrier function, hydrating the skin, and decreasing inflammation. ...Decreases stress. ...Helps insomnia. ...Offers vital healing properties. ...Soothes pain.`,
-    image: require(`../images/lavenderbathsalt.jpg`),
-  },
-  {
-    name: "Rose",
-    price: "150 (80 gm)",
-    description: "",
-    image: require(`../images/rosebathsalt.jpg`),
-  },
-  {
-    name: "Lemon",
-    price: "150 (80 gm)",
-    description: "",
-    image: require(`../images/lemonbathsalt.jpg`),
-  },
-  {
-    name: "Rainbow",
-    price: "150 (80 gm)",
-    description: "",
-    image: require(`../images/rainbowbathsalt.jpg`),
-  },
-  {
-    name: "Bubblegum",
-    price: "150 (80 gm)",
+    price: "200",
     description: "",
     image: require(`../images/bubblegumbathsalt.jpeg`),
   },
